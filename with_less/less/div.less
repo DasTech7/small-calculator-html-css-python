@@ -1,0 +1,62 @@
+div.container {
+  background-color: lighten(@darkColor, 3%);
+  margin: 70px 9px;
+  border-radius: 4px;
+  padding: 14px 4px;
+  text-align: center;
+  p {
+    height: 30px;
+    margin: 7px 27px;
+    background-color: @costomPurple;
+    border-bottom: 2px darken(@costomPurple, 12%) solid;
+    border-radius: 4px;
+    color: darken(white, 2%);
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      @inputColor: #E1E1E1;
+      background-color: @inputColor;
+      outline: none;
+      border: 1.5px lighten(@inputColor, 5%) solid;
+      border-bottom-color: darken(@inputColor, 15%);
+      border-radius: 5px;
+      width: 50%;
+      margin: 0 5px;
+      padding: 3px 10px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  select {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    outline: none;
+    width: 70px;
+    height: 40px;
+    font-size: 13pt;
+    text-align: center;
+    font-weight: 500;
+    background-color: @costomYellow;
+    border-radius: 4px;
+    border: 1px lighten(@costomYellow, 3%) solid;
+    border-bottom-color: darken(@costomYellow, 5%); 
+  }
+  button {
+    transition: 500ms;
+    padding: 6px 16px;
+    font-size: 12pt;
+    background-color: @primaryColor;
+    border: none;
+    border-radius: 6px;
+    color: darken(white, 4%);
+    margin-top: 7px;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}

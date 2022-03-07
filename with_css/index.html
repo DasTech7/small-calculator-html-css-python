@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="./packages/brython.js" crossorigin="anonymous"></script>
+    <script src="./packages/brython_stdlib.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body onload="brython(1)">
+    <noscript>plz set script</noscript>
+    <div class="container">
+      <p id="result">
+        result
+      </p>
+      <div>
+        <input type="number" id="first" />
+        <input type="number" id="second" />
+      </div>
+      <button id="calc">calc</button>
+      <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+      </select>
+    </div>
+    <script type="text/python" src="main.py"></script>
+  </body>
+</html>

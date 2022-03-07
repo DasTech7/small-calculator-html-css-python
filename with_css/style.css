@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14pt;
+}
+
+div.container {
+  background-color: #2e2b3f;
+  margin: 70px 9px;
+  border-radius: 4px;
+  padding: 14px 4px;
+  text-align: center;
+}
+
+div.container p {
+  height: 30px;
+  margin: 7px 27px;
+  background-color: #E334FF;
+  border-bottom: 2px #d400f6 solid;
+  border-radius: 4px;
+  color: #fafafa;
+}
+
+div.container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.container div input {
+  background-color: #E1E1E1;
+  outline: none;
+  border: 1.5px #eeeeee solid;
+  border-bottom-color: #bbbbbb;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 5px;
+  padding: 3px 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+div.container select {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  outline: none;
+  width: 70px;
+  height: 40px;
+  font-size: 13pt;
+  text-align: center;
+  font-weight: 500;
+  background-color: #FFDC26;
+  border-radius: 4px;
+  border: 1px #ffde35 solid;
+  border-bottom-color: #ffd80c;
+}
+
+div.container button {
+  transition: 500ms;
+  padding: 6px 16px;
+  font-size: 12pt;
+  background-color: #1D7DFF;
+  border: none;
+  border-radius: 6px;
+  color: #f5f5f5;
+  margin-top: 7px;
+}
+
+div.container button:hover {
+  transform: scale(1.1);
+}
