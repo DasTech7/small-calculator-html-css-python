@@ -3,19 +3,20 @@
 **Simple calculator project**
 
 ___
-#### Languages ​​used
-* HTML
-* CSS
-* lESS
-* PYTHON
+* #### Languages ​​used
+```
+HTML
+CSS
+LESS
+PYTHON
+```
+---
+* #### Project files
+1. WITH LESS: [``here``](./with_less/style.less)
+2. WITH CSS: [``here``](./with_css/style.css)
 
 ---
-#### Project files
-* WITH LESS: [``here``](./with_less/style.less)
-* WITH CSS: [``here``](./with_css/style.css)
-
----
-#### How to use
+* #### How to use
 1. Go to file `index.html` of the LESS or of the CSS
 2. Then run the project
 3. Enter numbers only in their respective places of entry 
